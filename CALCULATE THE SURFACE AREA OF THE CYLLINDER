@@ -1,0 +1,12 @@
+\\PROGRAM TO CALCULATE THE CURVED SURFACE AREA
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{ float A, r, h;
+printf("Entre the radius and height respectively ");
+scanf("%f %f",&r,&h );
+A=2*(3.141)*r*h;
+printf ("Your Area of cyllinder %f " ,A);
+return 0 ;
+
+
