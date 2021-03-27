@@ -1,0 +1,12 @@
+#include stdio.h
+int main ()
+{printf ("Hello world!!");
+\\PROGRAMME TO CONVERT CELCIUS TO FARHENITE
+
+float C,F ;
+printf ("Entre the temperature in celcius");
+scanf ("%f",&C);
+F=(1.8)*C+32;
+printf ("temperature in celcius is %f");
+return 0 ;
+}
