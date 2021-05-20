@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<stdlib.h>
+int search(int arr[n],int d)
+{for(i=0;i<n;i++)
+if(d==arr[i])
+return 1;
+else 
+return -1;
+
+
+
+
+
+int main()
+{int n,i;
+scanf("%d",&n);
+
+int arr[n];
+for(i=0;i<n;i++)
+{scanf("%d",&arr[i]);
+}
+for(i=0;i<n;i++)
+{printf("%d",&arr[i];}
+printf("Entre the element to search ");
+scanf("%d",d);
+a=search(arr[],d);
+return a;
+}
+
